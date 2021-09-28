@@ -1,7 +1,10 @@
 ### Face mask detection ###
 """
     Description :
-                    Face mask detection implementation using CNN model with keras and opencv
+                    Face mask detection implementation using CNN model with keras, where the model trained on collection of images of people wearing mask and other not,
+                    so the model can classify every image if the face wearing mask or not,
+                    first we use opencv haarcascade classifier to detect face and then run the CNN model to classify if this face has mask or not,
+                    and finally draw bounding box around face and output class "With Mask" or "Without Mask"
 """
 
 # Importing modules
