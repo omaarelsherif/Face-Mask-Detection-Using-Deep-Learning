@@ -1,7 +1,7 @@
-### Face mask detection ###
+### Face mask detection - Model training ###
 """
     Description :
-                    Face mask detection implementation using CNN model with keras
+                    Train CNN model on the dataset to acheive face mask detection tasl=k
 
 """
 
