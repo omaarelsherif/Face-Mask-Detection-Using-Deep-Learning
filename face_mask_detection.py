@@ -1,4 +1,4 @@
-### Face mask detection ###
+### Face mask detection - Main ###
 """
     Description :
                     Face mask detection implementation using CNN model with keras, where the model trained on collection of images of people wearing mask and other not,
