@@ -50,7 +50,7 @@ validation_generator = validation_datagen.flow_from_directory(VALIDATION_DIR,
                                                          target_size=(150, 150))
 
 # Model checkpoint to be saved
-checkpoint = ModelCheckpoint('Checkpoints/Model_{epoch:02d}', monitor='val_loss', verbose=0, save_best_only=True, mode='auto')
+checkpoint = ModelCheckpoint('Models/Model_{epoch:02d}', monitor='val_loss', verbose=0, save_best_only=True, mode='auto')
 
 # Fit the model to data
 history = model.fit(train_generator,
