@@ -14,10 +14,10 @@ import numpy as np
 from keras.models import load_model
 
 # Load the model last checkpoint (I choose the latest one and delete other versions) 
-model = load_model("./Checkpoints/Model_08")
+model = load_model("Models/Model_08")
 
 # Load the haarcascafe classifier
-classifier = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+classifier = cv2.CascadeClassifier('Models/haarcascade_frontalface_default.xml')
 
 # Output classes labels
 labels_dict = {0:'Without Mask', 1:'With Mask'}
